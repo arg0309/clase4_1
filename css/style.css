@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    background-color: coral;
 }
 main{
     margin: 0%;
@@ -9,70 +10,67 @@ main{
 .row h2{
     width: 100%;
     display:flex;
-    flex-direction: center;
+    flex-direction: row;
     justify-content: center;
     font-family: cursive;
     font-size: 1.2rem;
     margin-top: 10px;
+    text-align: center;
 }
 .row h3{
     width: 100%;
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     justify-content: center;
     font-family: cursive;
     font-size: 1.5rem;
-}
+    margin-top: 10px;
+    text-align: center;
+}    
 .container{
     width: 100%;
 }
-.row{
+.row2{
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     justify-content: center;
     width: 100%;
 } 
 .col-30{
     width: 20%;
 }
-.row .col-30 figure{
+.row2 .col-30 figure{
     margin: 0%;
     padding: 0%;
     display: flex;
     justify-content: center;
 }
-.row .col-30 figure img{
+.row2 .col-30 figure img{
     width: 90%;
 }
-.row .col-30:nth-child(1) div{
-    width: 30%;
-    height: 60%;
-}
-.row .col-30:nth-child(2) div{
+.row2 .col-30:nth-child(1) div{
     width: 30%;
     margin: 60px;
 }
-.row .col-30:nth-child(3)div{
+.row2 .col-30:nth-child(2) div{
     width: 30%;
     margin: 60px;
 }
-.row .col-30 div a{
-    width: 90%;
-    justify-content: center;
+.row2 .col-30:nth-child(3)div{
+    width: 30%;
+    margin: 60px;
+}
+.row2 .col-30 div a{
+    width: 30%;
     text-decoration: none;
-    font-family: cursive;
     color: black;
-    font-size: 1.5rem;
-}
-.row .col-30 div p{
-    width: 90%;
     font-family: cursive;
-    color: black;
-    font-size: 1rem;
 }
-.row .col-30 div sub{
-    width: 90%;
+.row2 .col-30 div p{
+    width: 30%;
     font-family: cursive;
-    color: darkorange;
-    font-size: 1.2;
+}
+.row2 .col-30 div sub{
+    width: 30%;
+    font-family: cursive;
 }
