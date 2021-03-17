@@ -1,7 +1,6 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: coral;
 }
 main{
     margin: 0%;
@@ -14,7 +13,8 @@ main{
     justify-content: center;
     font-family: cursive;
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
     text-align: center;
 }
 .row h3{
@@ -38,6 +38,7 @@ main{
 } 
 .col-30{
     width: 20%;
+    justify-content: center;
 }
 .row2 .col-30 figure{
     margin: 0%;
@@ -49,28 +50,43 @@ main{
     width: 90%;
 }
 .row2 .col-30:nth-child(1) div{
-    width: 30%;
-    margin: 60px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
 }
 .row2 .col-30:nth-child(2) div{
-    width: 30%;
-    margin: 60px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
 }
-.row2 .col-30:nth-child(3)div{
-    width: 30%;
-    margin: 60px;
+.row2 .col-30:nth-child(3) div{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
 }
 .row2 .col-30 div a{
-    width: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: black;
     font-family: cursive;
+    margin: 0px auto;
+    margin-bottom: 0px;
 }
 .row2 .col-30 div p{
-    width: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     font-family: cursive;
+    margin: 0px auto;
+    margin-bottom: 0px;
 }
 .row2 .col-30 div sub{
-    width: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     font-family: cursive;
+    margin: 0px auto;
+    margin-bottom: 0px;
 }
